@@ -1,0 +1,10 @@
+D:\temp\MongoCourseHW_02_EX_02\MongoCourseHW_02_EX_02\bin\Debug\MongoCourseHW_02_EX_02.exe.config
+D:\temp\MongoCourseHW_02_EX_02\MongoCourseHW_02_EX_02\bin\Debug\MongoCourseHW_02_EX_02.exe
+D:\temp\MongoCourseHW_02_EX_02\MongoCourseHW_02_EX_02\bin\Debug\MongoCourseHW_02_EX_02.pdb
+D:\temp\MongoCourseHW_02_EX_02\MongoCourseHW_02_EX_02\bin\Debug\MongoDB.Bson.dll
+D:\temp\MongoCourseHW_02_EX_02\MongoCourseHW_02_EX_02\bin\Debug\MongoDB.Driver.Core.dll
+D:\temp\MongoCourseHW_02_EX_02\MongoCourseHW_02_EX_02\bin\Debug\MongoDB.Driver.dll
+D:\temp\MongoCourseHW_02_EX_02\MongoCourseHW_02_EX_02\bin\Debug\MongoDB.Bson.xml
+D:\temp\MongoCourseHW_02_EX_02\MongoCourseHW_02_EX_02\bin\Debug\MongoDB.Driver.xml
+D:\temp\MongoCourseHW_02_EX_02\MongoCourseHW_02_EX_02\obj\Debug\MongoCourseHW_02_EX_02.exe
+D:\temp\MongoCourseHW_02_EX_02\MongoCourseHW_02_EX_02\obj\Debug\MongoCourseHW_02_EX_02.pdb
