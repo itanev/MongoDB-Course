@@ -5,11 +5,9 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
-using MongoDB.Bson;
 using MongoDB.Driver;
 using M101DotNet.WebApp.Models;
 using M101DotNet.WebApp.Models.Account;
-using MongoDB.Driver.Core.Configuration;
 
 namespace M101DotNet.WebApp.Controllers
 {
@@ -36,11 +34,7 @@ namespace M101DotNet.WebApp.Controllers
             }
 
             var blogContext = new BlogContext();
-            
-            var results = await blogContext.Users.Find(x => x.Email == model.Email).ToListAsync();
-
-            User user = results.FirstOrDefault();
-
+            var user = await blogContext.Users.Find(x => x.Email == model.Email).SingleOrDefaultAsync();
             if (user == null)
             {
                 ModelState.AddModelError("Email", "Email address has not been registered.");
@@ -87,17 +81,13 @@ namespace M101DotNet.WebApp.Controllers
             }
 
             var blogContext = new BlogContext();
-
-            // Normally we will use some kind of mapper (Automapper for example). 
-            // But for now we will keep it simple.
-            var user = new User()
+            var user = new User
             {
-                Email = model.Email,
-                Name = model.Name
+                Name = model.Name,
+                Email = model.Email
             };
 
             await blogContext.Users.InsertOneAsync(user);
-
             return RedirectToAction("Index", "Home");
         }
 

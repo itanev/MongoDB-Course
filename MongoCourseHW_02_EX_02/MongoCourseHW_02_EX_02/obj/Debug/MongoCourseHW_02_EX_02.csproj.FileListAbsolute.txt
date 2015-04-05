@@ -8,3 +8,6 @@ D:\temp\MongoCourseHW_02_EX_02\MongoCourseHW_02_EX_02\bin\Debug\MongoDB.Bson.xml
 D:\temp\MongoCourseHW_02_EX_02\MongoCourseHW_02_EX_02\bin\Debug\MongoDB.Driver.xml
 D:\temp\MongoCourseHW_02_EX_02\MongoCourseHW_02_EX_02\obj\Debug\MongoCourseHW_02_EX_02.exe
 D:\temp\MongoCourseHW_02_EX_02\MongoCourseHW_02_EX_02\obj\Debug\MongoCourseHW_02_EX_02.pdb
+D:\others\GitHub\MongoDB-Course\MongoCourseHW_02_EX_02\MongoCourseHW_02_EX_02\bin\Debug\MongoCourseHW_02_EX_02.exe.config
+D:\others\GitHub\MongoDB-Course\MongoCourseHW_02_EX_02\MongoCourseHW_02_EX_02\obj\Debug\MongoCourseHW_02_EX_02.exe
+D:\others\GitHub\MongoDB-Course\MongoCourseHW_02_EX_02\MongoCourseHW_02_EX_02\obj\Debug\MongoCourseHW_02_EX_02.pdb
